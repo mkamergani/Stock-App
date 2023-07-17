@@ -1,0 +1,13 @@
+**/*.md
+**/*.svg
+**/*.ejs
+**/*.html
+
+
+/node_modules
+
+/config
+build
+dist
+tailwind.config.ts
+.DS_Store
