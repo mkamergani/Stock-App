@@ -33,7 +33,7 @@ module.exports = {
       { allowConstantExport: true },
     ],
     'import/extensions': 'off',
-    'no-extraneous-dependencies': 'off',
+    'import/no-extraneous-dependencies': 'off',
     'react/react-in-jsx-scope': 'off',
     '@typescript-eslint/no-non-null-assertion': 'off',
     '@typescript-eslint/no-explicit-any': 'off',

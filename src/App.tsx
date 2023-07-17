@@ -1,4 +1,5 @@
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
+import { ChakraProvider } from '@chakra-ui/react'
 import Home from './Pages/Home'
 
 function App() {
@@ -11,9 +12,11 @@ function App() {
 
 function WrappedApp() {
   return (
-    <BrowserRouter>
-      <App />
-    </BrowserRouter>
+    <ChakraProvider>
+      <BrowserRouter>
+        <App />
+      </BrowserRouter>
+    </ChakraProvider>
   )
 }
 export default WrappedApp
