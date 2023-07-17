@@ -10,3 +10,16 @@ body {
   margin: 0;
   background-color: #f1f2f3 !important;
 }
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: #4e73f814;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #4e73f8;
+  border-radius: 5px;
+}
