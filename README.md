@@ -33,11 +33,9 @@ get API key from https://finnhub.io/
 2. Install  dependencies
 
 ```bash
-  cd client
   npm install
 ```
-3. add API key to
-4. Start the project
+3. Start the project
 
 ```bash
   npm run start
@@ -58,6 +56,7 @@ run the following command
 ```
 
 ## Demo
+![00000](https://github.com/mkamergani/Stock-App/assets/64110271/e6d6b7d5-66fe-4b85-9c32-c8217db131bf)
 
 ![11111](https://github.com/mkamergani/Stock-App/assets/64110271/37a600b3-3562-4ca6-92e3-c59f72f33080)
-![Uploading 00000.PNG…]()
+
